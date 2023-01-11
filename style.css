@@ -1,0 +1,95 @@
+.dropdown-menu[data-bs-popper]{
+    top: 127%!important;
+   
+}
+.nav-link{
+    color: black!important;
+}
+.banner{
+    position: relative;
+    z-index: 1;
+
+}
+.section::after{
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(251, 242, 242, 0.671);
+    z-index: -1;
+ 
+}
+.i-section img{
+    max-width: 100%;
+    border: 1px solid rgba(140, 149, 171, 0.496);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px 5px wheat;
+}
+.card p{
+    font-size: 13px;
+}
+.card h6{
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.card{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px 5px rgba(121, 180, 214, 0.548);
+}
+.f-section{
+    box-shadow: 5px 5px 20px 5px rgba(121, 180, 214, 0.548);
+}
+.bs-1{
+    margin-top: 177px;
+    text-transform: capitalize;
+}
+
+
+
+/*response css*/
+@media(max-width:590px){
+    .col-sm-6 .bs-1{
+        margin-top: 60px;
+        
+    }
+    .bs-1 h1{
+        font-size: 20px;
+    }
+    .bs-1 p{
+        font-size: 12px;
+    }
+    .card .col-sm-6 {
+        margin-bottom: 12px;
+    }
+    .i-section2{
+    margin-top: -16px;
+    font-size: 10px;
+    }
+    .mark .col-sm-6 {
+        font-size: 13px;
+    }
+    .test button{
+        font-size: 13px;
+        padding: 3px 15px;
+    }
+    .f-section{
+        padding-bottom: 10px;
+    }
+    .from{
+        font-size: 20px;
+    }
+    .b-pic{
+        max-width: 66%!important;
+    }
+    .extra{
+        margin-bottom: 10px;
+    }
+    .navbar-toggler {
+        padding: .10rem .10rem!important;
+    }
+    button.btn.btn-primary {
+        padding: 3px;
+    }
+}
